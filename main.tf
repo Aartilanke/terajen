@@ -23,7 +23,7 @@ resource "aws_instance" "my_instance_2" {
     Name = "MyTerraformInstance2"
   }
 
-  key_name = "tera"  # Replace with your EC2 key pair name
+  key_name = "tera2"  # Replace with your EC2 key pair name
 }
 
 output "instance_1_public_ip" {
