@@ -1,8 +1,6 @@
 
-
 provider "aws" {
-  region = "us-west-2" # Replace with your desired region
-  #ap-south-1
+  region = "ap-south-1"
 }
 
 resource "aws_instance" "my_instance" {
